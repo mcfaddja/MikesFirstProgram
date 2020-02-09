@@ -8,8 +8,9 @@ public class Greetings {
 		BufferedReader br = new BufferedReader (new InputStreamReader (System.in));
 		String name;
 		try {
+			System.out.println("What is your name:");
 			name = br.readLine();
-			System.out.println(name);
+			System.out.println("Hello " + name + " nice to meet you");
 		} 
 		catch (IOException e) {
 			System.out.println("Error Meassage Goes Here");
